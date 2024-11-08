@@ -1,3 +1,4 @@
+
 # Create two matrices
 matrix1 <- matrix(c(2, 4, 1, 3, 5, 7), nrow = 2, ncol = 3)
 matrix2 <- matrix(c(8, 1, 6, 2, 9, 4), nrow = 3, ncol = 2)
@@ -34,3 +35,33 @@ print(square_matrix)
 determinant <- det(square_matrix)
 print("The determinant of the square matrix is:")
 print(determinant)
+# create two 2x3 matrices,
+# terdapat settingan baru
+# yaitu perhitungan rata-rata
+
+# print
+print("The first matrix is:")
+print(matrix1)
+print("The second matrix is:")
+print(matrix2)
+
+# Add the matrices
+result <- matrix1 + matrix2
+
+#Subtract the matrices
+result2 <- matrix1 - matrix2
+
+#Multiply the matrices
+result3 <- matrix1 * matrix2
+
+# Divide the matrices
+result4 <- matrix1 / matrix2
+
+#Print results
+print("The result of Addition of is:")
+print(result1)
+print(The result of subtraction of is:")
+print(result2)
+print("The result of Multiplication of is:")
+print(result3)
+print("The result of Division of is:")
