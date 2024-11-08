@@ -1,0 +1,36 @@
+# Create two matrices
+matrix1 <- matrix(c(2, 4, 1, 3, 5, 7), nrow = 2, ncol = 3)
+matrix2 <- matrix(c(8, 1, 6, 2, 9, 4), nrow = 3, ncol = 2)
+
+# Print the matrices
+print("Matrix 1:")
+print(matrix1)
+print("Matrix 2:")
+print(matrix2)
+
+# Transpose the matrices
+transpose1 <- t(matrix1)
+transpose2 <- t(matrix2)
+
+# Print transposed matrices
+print("Transpose of Matrix 1:")
+print(transpose1)
+print("Transpose of Matrix 2:")
+print(transpose2)
+
+# Matrix multiplication
+matrix_product <- matrix1 %*% matrix2
+
+# Print the matrix product
+print("The product of Matrix 1 and Matrix 2 is:")
+print(matrix_product)
+
+# Create a square matrix for determinant calculation
+square_matrix <- matrix(c(4, 2, 3, 1), nrow = 2, ncol = 2)
+print("Square Matrix for Determinant Calculation:")
+print(square_matrix)
+
+# Calculate and print the determinant
+determinant <- det(square_matrix)
+print("The determinant of the square matrix is:")
+print(determinant)
